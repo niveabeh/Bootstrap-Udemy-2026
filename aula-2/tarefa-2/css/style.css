@@ -1,0 +1,13 @@
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(57, 91, 244, 0.866);
+    border-radius: 1rem;
+    margin-right: 12px;
+}
+i{
+    font-size: 2rem;
+    color: rgba(57, 91, 244, 0.866);
+}
