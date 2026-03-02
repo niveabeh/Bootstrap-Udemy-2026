@@ -4,3 +4,36 @@ h1 {
     color: red;
     font-size: 24px;
 } */
+
+
+/* sm - Para telas menores que 572px, o fundo será branco.
+md - Para telas entre 600px e 768px, o fundo será azul claro.
+lg - Para telas maiores que 992px, o fundo será cinza claro.
+xl - Para telas maiores que 1200px, o fundo será cinza escuro. 
+xxl - Para telas maiores que 1400px, o fundo será preto.  */
+/* @media (min-width: 572px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        background-color: lightgray;
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        background-color: darkgray;
+    }
+}
+@media (min-width: 1400px) {
+    body {
+        background-color: black;
+    }
+} */
+
