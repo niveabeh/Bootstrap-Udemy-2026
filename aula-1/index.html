@@ -55,6 +55,56 @@
         </div>
     </div>
 
+    <h2 class="h2 text-center mt-2">Alinhamento Vertical</h2>
+    <div class="container align-items-start bg-primary text-white ">
+        <p>Alinhamento Início</p>
+    </div>
+    <div class="  container  align-items-center bg-secondary text-white  mt-2">
+        <p>Alinhamento Centro</p>
+    </div>
+    <div class="container h-100 align-items-end bg-success text-white  mt-2">
+        <p>Alinhamento Fim</p>
+    </div>
+
+
+    <h2 class="h2 text-center mt-2">Ordem dos itens</h2>
+    <p class="text-center text-secondary">Utilizando classes de ordem como: order-1, order-2, etc. No mobile, a ordem é revertida. Colocando o principal item com order-0, os demais podem ser reordenados com classes order-1, order-2, etc.</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col order-2 bg-primary text-white p-4">Coluna 1</div>
+            <div class="col order-1 bg-secondary text-white p-4">Coluna 2</div>
+            <div class="col order-3 bg-success text-white p-4">Coluna 3</div>
+        </div>
+    </div>
+
+     <h2 class="h2 text-center mt-2">Offset de colunas</h2>
+    <p class="text-center text-secondary">Utilizando classes de offset como: offset-1, offset-2, etc. para criar espaçamento entre as colunas. O offset é útil para criar espaçamento entre as colunas, deslocando-as para a direita. Ele é especialmente útil quando você deseja criar um layout mais espaçado ou quando precisa alinhar as colunas de uma maneira específica dentro do grid do Bootstrap.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 bg-primary text-white p-4">Coluna 1</div>
+            <div class="col-4 offset-4 bg-secondary text-white p-4">Coluna 2</div>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-2 bg-primary text-white p-4">Coluna 1</div>
+            <div class="col-4 offset-2 bg-secondary text-white p-4">Coluna 2</div>
+        </div>
+    </div>
+
+     <h2 class="h2 text-center mt-2">Gutter</h2>
+     <p class="text-center text-secondary">Utilizando classes de gutter como: g-0, g-1, g-2, etc. para criar espaçamento entre as colunas. O gutter é útil para criar espaçamento entre as colunas dentro do grid do Bootstrap.</p>
+    <div class="container">
+        <div class="row gx-0 ">
+            <div class="col bg-primary text-white p-4">Coluna 1</div>
+            <div class="col bg-secondary text-white p-4">Coluna 2</div>
+            <div class="col bg-success text-white p-4">Coluna 3</div>
+        </div>
+        <div class="row gx-3 ">
+            <div class="col border border-primary p-4">Coluna 1</div>
+            <div class="col border border-secondary p-4">Coluna 2</div>
+            <div class="col border border-success p-4">Coluna 3</div>
+        </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

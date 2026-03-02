@@ -36,4 +36,6 @@ xxl - Para telas maiores que 1400px, o fundo será preto.  */
         background-color: black;
     }
 } */
-
+.gutter {
+    padding: 0 15px;
+}

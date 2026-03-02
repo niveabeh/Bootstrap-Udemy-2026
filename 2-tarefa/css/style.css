@@ -1,0 +1,10 @@
+.col{
+    border: 1px solid black;
+    height: 100px;
+}
+.row :nth-child(odd) {
+    background-color: lightblue;
+}
+.row :nth-child(even) {
+    background-color: lightgray;
+}
