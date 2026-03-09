@@ -38,6 +38,36 @@
                         <label for="foto" class="form-label">Apenas um arquivo</label>
                         <input type="file" class="form-control" multiple>
                     </div>
+                    <div class="mb-4">
+                        <label for="cidades" class="form-label">Selecione uma cidade</label>
+                        <input type="text" class="form-control" list="datalistOptions" id="cidade" placeholder="Busque a sua cidade...">
+                        <datalist id="datalistOptions">
+                            <option value="São Paulo">
+                            <option value="Rio de Janeiro">
+                            <option value="Curitiba">
+                            <option value="Joinville">
+                        </datalist>
+                    </div>
+                    <div class="mb-4">
+                        <label for="cor" class="form-label">Selecione a cor:</label>
+                        <input type="color" class="form-control form-control-color" id="cor" value="0000">
+                    </div>
+                    <div class="mb-4">
+                        <label for="opcoes" class="form-label">Selecione uma opcao</label>
+                        <select name="opcoes" id="opcoes" class="form-select" >
+                            <option value="1">Opcao 1</option>
+                            <option value="1">Opcao 2</option>
+                            <option value="1">Opcao 3</option>
+                            <option value="1">Opcao 4</option>
+                            <option value="1">Opcao 5</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="privacidade">
+                            <label for="privacidade" class="form-check-label">aceitar termos de privacidade</label>
+                        </div>
+                    </div>
                     <input type="submit" class="btn btn-primary" value="Cadastrar">
                 </form>  
             </div>
